@@ -1,0 +1,63 @@
+.product{
+    margin-top : 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product .informationProduct{
+
+    width: 55vw;
+    height: 20vh;
+    display: flex;
+    box-shadow: 0 00px 20px rgb(60, 84, 160);
+}
+.product .informationProduct .labelProduct{
+    margin-left: 3vw;
+}
+
+.product .informationProduct .labelProduct div{
+    display: flex;
+    margin-top: 0.5vh;
+}
+.product .informationProduct .labelProduct div img{
+    width: 20%;
+    height: 19vh;
+}
+.product .informationProduct .labelProduct div p{
+    width: 20vw;
+    margin-top: 3vh;
+    margin-left: 3vh;
+    font-size: 2.5vw;
+    text-decoration: bold;
+    text-decoration-style: solid;
+
+}
+
+/* .product .informationProduct .prixProduct{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+.product .informationProduct .prixProduct {
+    display: flex;
+    margin-top: 20px;
+}
+.product .informationProduct .prixProduct  p{
+    float: center;
+    font-style: oblique;
+    font-size: 20px;
+
+  } */
+.product .informationProduct .buyProduct{
+    height: 30%;
+    padding-bottom: 90px;
+}
+.product .informationProduct .buyProduct img{
+    margin-left: 80%;
+    margin-top: 3%;
+    cursor: pointer;
+}

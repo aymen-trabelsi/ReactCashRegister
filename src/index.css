@@ -1,0 +1,20 @@
+html{
+  background-color: #F5F5F5;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+    -webkit-user-select: none;
+       -moz-user-select: -moz-none;
+        -ms-user-select: none;
+            user-select: none;
+}
+#root{
+  width: 100%;
+  height: auto;
+}
